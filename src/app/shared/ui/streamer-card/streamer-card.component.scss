@@ -1,0 +1,49 @@
+.card {
+  border-radius: 4px;
+  background: var(--ngs-card-background);
+  border: 8px solid var(--ngs-card-background);
+  color: var(--ngs-card-color);
+  height: 100%;
+
+  img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.name-white {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+}
+
+.streaming-platforms-row {
+  display: flex;
+  gap: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  justify-content: flex-end;
+  align-items: center;
+
+  img {
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+    border: none;
+    object-fit: contain;
+  }
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 150px;
+  background: -webkit-linear-gradient(left, #E90464, #5C44E4);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+

@@ -1,45 +1,9 @@
 <app-header/>
 <div class="container">
   <div class="grid">
-
-    <div class="card">
-      <div class="card-footer">
-        <span class="name-white">Nivek</span>
-        <div class="technology-row">
-          <img src="socials/youtube.svg"/>
-          <img src="socials/twitch.svg"/>
-        </div>
-      </div>
-      <img src="nivek.png"/>
-      <div class="content">
-        <!--
-        <span class="name">Nivek</span>
-        -->
-        <div class="description">
-          Coding Angular, TypeScript, RxJS, Qwik, and other things regarding modern development approches with fun!
-          Let's learn together. Join my streams for tips, tricks, and a good time!"💻 Google Developer Expert | ⚽ Real
-          Madrid y nada mas!
-        </div>
-      </div>
-
-    </div>
-
-    <div class="card">
-      some content
-    </div>
-
-    <div class="card">
-      some content
-    </div>
-
-    <div class="card">
-      some content
-    </div>
-
-    <div class="card">
-      some content
-    </div>
-
+    @for(streamer of streamers(); track $index){
+      <streamer-card [streamer]="streamer"/>
+    }
   </div>
 </div>
-<router-outlet/>
+<app-footer/>

@@ -1,59 +1,20 @@
-# Angularstreamers
+# Angular Streamers
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+Angular Streamers is a curated website dedicated to showcasing people who stream Angular content on Twitch and YouTube. Our mission is to improve discoverability, foster community growth, and promote Angular's awesomeness while encouraging knowledge sharing and collaboration.
 
-## Development server
+## 🌟 Why Angular Streamers?
+The Angular ecosystem thrives on collaboration and sharing knowledge. However, finding streamers who focus on Angular can sometimes be challenging. Angular Streamers aims to:
 
-To start a local development server, run:
+- Increase Discoverability: Provide a centralized platform for viewers to find Angular streamers.
+- Build Community: Connect Angular enthusiasts, learners, and experts.
+- Promote Angular: Highlight how cool and powerful Angular is.
+- Knowledge Sharing: Encourage streamers to share their expertise and innovative ideas with the community.
 
-```bash
-ng serve
-```
+## 🚀 Features
+- Streamers Directory: A list of Angular streamers with their profiles, descriptions, and links to their streams.
+- Social Links: Quick access to each streamer’s social profiles for deeper connections.
+- Dynamic Content: Regularly updated to include new and active streamers.
+- Cross-Platform Support: Featuring content from both Twitch and YouTube.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Know Someone We Missed?
+Are you a streamer or know someone who should be on our list? No worries! Simply follow the steps outlined in our [Contribution Guide](CONTRIBUTION.md), and we'll make sure to add you or the person you recommend to the list. We'd love to hear from you!

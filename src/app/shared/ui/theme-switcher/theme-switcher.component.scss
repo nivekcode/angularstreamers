@@ -1,0 +1,45 @@
+
+:host {
+  position: relative;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  border-radius: 50px;
+  background-size: contain;
+
+  transition: all 1s ease;
+
+  &.light {
+    background: #a7a1a1;
+
+    .thumb {
+      background: url("../../../../../public/theme-switcher/sun.webp") no-repeat;
+      background-size: cover;
+      transform: translateX(25px);
+    }
+  }
+
+  &.dark {
+    background: #3f3d3d;
+
+    .thumb {
+      background: url("../../../../../public/theme-switcher/moon.webp") no-repeat;
+      background-size: cover;
+      left: -5px;
+    }
+  }
+
+}
+
+.thumb {
+  position: absolute;
+  top: -5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  transition: all 1s ease;
+  cursor: pointer;
+}
