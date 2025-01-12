@@ -26,6 +26,7 @@ import {ChangeDetectionStrategy, Component} from '@angular/core';
       font-family: "Rock Salt", cursive;
       font-size: 24px;
       cursor: pointer;
+      margin-left: 8px;
     }
   `,
   changeDetection: ChangeDetectionStrategy.OnPush
